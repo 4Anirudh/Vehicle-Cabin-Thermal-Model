@@ -116,18 +116,7 @@ This function calculates the energy balance for each thermal node and returns th
 Conceptually, the energy balance for each node is:
 
 \[
-m C_p \frac{dT}{dt}
-=
-Q_{\text{solar}}
-+
-Q_{\text{conduction}}
-+
-Q_{\text{convection}}
-+
-Q_{\text{radiation}}
-+
-Q_{\text{ventilation}}
-\]
+mC_p  dT/dt=∑Q_"in" -∑Q_"out" ]
 
 The exact heat-transfer terms included depend on the component represented by the node.
 
