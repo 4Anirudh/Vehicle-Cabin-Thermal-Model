@@ -115,8 +115,8 @@ This function calculates the energy balance for each thermal node and returns th
 
 Conceptually, the energy balance for each node is:
 
-\[
-mC_p  dT/dt=∑Q_"in" -∑Q_"out" ]
+\
+mC_p  dT/dt=∑Q_"in" -∑Q_"out" 
 
 The exact heat-transfer terms included depend on the component represented by the node.
 
